@@ -20,6 +20,7 @@ terraform {
 provider "azurerm" {
   # Leave the features block empty to accept all defaults
   features {}
+  subscription_id = "45a61a7b-f92a-4559-8168-1d379738daf3"
 }
 
 provider "cloudinit" {

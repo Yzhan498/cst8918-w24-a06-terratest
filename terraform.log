@@ -1,0 +1,23 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mError acquiring the state lock[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mErr
+
+Interrupt received.
+Please wait for Terraform to exit or data loss may occur.
+Gracefully shutting down...
+
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mNo value for required variable[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on variables.tf line 2:
+[31m│[0m [0m   2: [4mvariable "labelPrefix"[0m {[0m
+[31m│[0m [0m
+[31m│[0m [0mThe root module input variable "labelPrefix" is not set, and has no default
+[31m│[0m [0mvalue. Use a -var or -var-file command line argument to provide a value for
+[31m│[0m [0mthis variable.
+[31m╵[0m[0m
+sers at the same time. Please resolve the issue above and try
+[31m│[0m [0magain. For most commands, you can disable locking with the "-lock=false"
+[31m│[0m [0mflag, but this is not recommended.
+[31m╵[0m[0m
